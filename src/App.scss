@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  width: 80%;
+  border: 1px solid red;
+}
+
+.result {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: blue;
+  flex: 50%;
+  color: white;
+  border-radius: 20px;
+}
+
+.summary {
+  flex-direction: column;
+  display: flex;
+  flex: 50%;
+}
+
+.app {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
