@@ -2,14 +2,17 @@
 
 .panel {
   border-radius: $border-radius-s;
-  margin: 5px;
-  padding: 5px;
+  margin: 5px 0px;
+  padding: 15px;
   display: flex;
 
   .title {
   }
   .points {
-    color: $neutral-dark;
+    strong {
+      color: $neutral-dark;
+    }
+    color: $neutral-dark-faded;
   }
 
   .content {

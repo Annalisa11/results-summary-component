@@ -5,7 +5,7 @@
 }
 
 @mixin panel-color($color) {
-  background-color: rgba($color, 0.1);
+  background-color: rgba($color, 0.06);
   color: $color;
 }
 
@@ -30,6 +30,8 @@ $neutral-light: hsl(221, 100%, 96%);
 $neutral-medium: hsl(241, 100%, 89%);
 $neutral-dark: hsl(224, 30%, 27%);
 
+$neutral-dark-faded: rgba($neutral-dark, 0.5);
+
 // Typography
 
 /// Body Copy
@@ -42,4 +44,4 @@ $font-family: "Hanken Grotesk", sans-serif;
 // Border-Radius
 $border-radius-s: 10px;
 $border-radius-m: 15px;
-$border-radius-l: 20px;
+$border-radius-l: 25px;
