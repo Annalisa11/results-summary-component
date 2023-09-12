@@ -71,7 +71,7 @@ As it was my first time using SCSS in a project, I learned about the power of cs
 
 **If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.**
 
-## 👩🏽‍💻 Author
+## 👩‍💻 Author
 
 Annalisa Comin
 
