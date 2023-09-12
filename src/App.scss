@@ -7,6 +7,10 @@
   align-items: center;
   text-align: center;
   font-family: $font-family;
+  height: 100vh;
+  @media (max-width: 600px) {
+    align-items: start;
+  }
 }
 
 .card {
@@ -14,8 +18,12 @@
   background-color: $white;
   border-radius: 20px;
   color: black;
-  width: 80%;
-  border: 1px solid $neutral-dark;
+  width: 40em;
+  box-shadow: 5px 5px 28px 3px $neutral-light;
+  @media (max-width: 600px) {
+    flex-direction: column;
+    height: 100%;
+  }
 }
 
 html,

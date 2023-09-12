@@ -1,6 +1,5 @@
 import React from "react";
 import "./Button.scss";
-import MemoryIcon from "../assets/images/icon-memory.svg";
 
 type Props = {
   label: string;

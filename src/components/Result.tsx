@@ -10,7 +10,7 @@ type Props = {
 const Result = ({ points, totalPoints }: Props): JSX.Element => {
   return (
     <div className='result'>
-      <div className='header'>Your Result</div>
+      <h2>Your Result</h2>
 
       <ResultCircle points={points} totalPoints={totalPoints} />
       <div className='description'>

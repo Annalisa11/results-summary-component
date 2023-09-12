@@ -9,6 +9,14 @@
   color: $color;
 }
 
+@mixin h2-header($color, $align: center) {
+  margin: 0;
+  margin-bottom: 25px;
+  color: $color;
+  font-weight: normal;
+  text-align: $align;
+}
+
 // Colors
 
 /// Pirmary
@@ -45,3 +53,17 @@ $font-family: "Hanken Grotesk", sans-serif;
 $border-radius-s: 10px;
 $border-radius-m: 15px;
 $border-radius-l: 25px;
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: $body-font-size;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+* {
+  box-sizing: border-box;
+}

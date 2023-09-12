@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.scss";
 import JSONdata from "./data.json";
 //Components
-import Button from "./components/Button";
+import Button from "./components/button";
 import SummaryPanel from "./components/SummaryPanel";
 //Assets
 import MemoryIcon from "./assets/images/icon-memory.svg";

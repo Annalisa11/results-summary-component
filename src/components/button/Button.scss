@@ -1,0 +1,22 @@
+@import "../../General.scss";
+
+.button {
+  padding: 10px;
+  border-radius: $border-radius-l;
+  text-align: center;
+  background-color: $neutral-dark;
+  margin-top: 15px;
+
+  &:hover {
+    background: linear-gradient(
+      180deg,
+      $background-light-primary 0%,
+      $background-light-secondary 50%
+    );
+    cursor: pointer;
+  }
+
+  .label {
+    color: $white;
+  }
+}

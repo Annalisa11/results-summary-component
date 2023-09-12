@@ -9,8 +9,8 @@ type Props = {
 const ResultCircle = ({ points, totalPoints }: Props): JSX.Element => {
   return (
     <div className='circle'>
-      <div className='points'>{points}</div>
-      <div className='total'>of {totalPoints}</div>
+      <p className='points'>{points}</p>
+      <p className='total'>of {totalPoints}</p>
     </div>
   );
 };
