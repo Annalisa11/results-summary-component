@@ -11,6 +11,8 @@ import VerbalIcon from "./assets/images/icon-verbal.svg";
 import VisualIcon from "./assets/images/icon-visual.svg";
 //Types and Enums
 import { Color } from "./components/SummaryPanel";
+import Result from "./components/Result";
+import Summary from "./components/Summary";
 
 export interface DataItem {
   category: string;
@@ -59,23 +61,8 @@ function App() {
   return (
     <div className='app'>
       <div className='card'>
-        <div className='result'>Result</div>
-        <div className='summary'>
-          Summary
-          {data.map(({ category, score, icon, color }) => {
-            return (
-              <SummaryPanel
-                title={category}
-                iconPath={icon}
-                points={score}
-                totalPoints={100}
-                color={color}
-                key={category}
-              />
-            );
-          })}
-          <Button label={"Continue"} />
-        </div>
+        <Result points={76} totalPoints={100} />
+        <Summary data={data} />
       </div>
     </div>
   );

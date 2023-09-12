@@ -10,13 +10,15 @@
 }
 
 .result {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  background-color: blue;
+  background: linear-gradient(
+    200deg,
+    $background-light-primary 0%,
+    $background-light-secondary 50%
+  );
   flex: 50%;
   color: white;
   border-radius: 20px;
+  padding: 30px;
 }
 
 .summary {
@@ -33,6 +35,11 @@
   align-items: center;
   text-align: center;
   font-family: $font-family;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 35px;
 }
 
 html,

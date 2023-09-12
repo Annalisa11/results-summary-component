@@ -1,0 +1,17 @@
+@import "../General.scss";
+
+.circle {
+  background: linear-gradient(
+    200deg,
+    $circle-primary 0%,
+    $background-light-secondary 100%
+  );
+  padding: 30px;
+  border-radius: 50%;
+  width: fit-content;
+  margin: auto;
+  .points {
+  }
+  .total {
+  }
+}
