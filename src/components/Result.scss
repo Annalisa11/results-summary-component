@@ -1,0 +1,18 @@
+@import "../General.scss";
+
+.result {
+  background: linear-gradient(
+    200deg,
+    $background-light-primary 0%,
+    $background-light-secondary 50%
+  );
+  flex: 50%;
+  color: white;
+  border-radius: 20px;
+  padding: 30px;
+
+  .header {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+}
