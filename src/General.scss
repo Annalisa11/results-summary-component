@@ -1,0 +1,44 @@
+%display-flex-centered {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+@mixin panel-color($color) {
+  background-color: rgba($color, 0.1);
+  color: $color;
+}
+
+// Colors
+
+/// Pirmary
+$primary-red: hsl(0, 100%, 67%);
+$primary-orange: hsl(39, 100%, 56%);
+$primary-green: hsl(166, 100%, 37%);
+$primary-blue: hsl(234, 85%, 45%);
+
+/// Gradients
+$background-light-primary: hsl(252, 100%, 67%);
+$background-light-secondary: hsl(241, 81%, 54%);
+
+$circle-primary: hsla(256, 72%, 46%, 1);
+$circle-dark: hsla(241, 72%, 46%, 0);
+
+/// Neutral
+$white: hsl(0, 0%, 100%);
+$neutral-light: hsl(221, 100%, 96%);
+$neutral-medium: hsl(241, 100%, 89%);
+$neutral-dark: hsl(224, 30%, 27%);
+
+// Typography
+
+/// Body Copy
+$body-font-size: 18px;
+
+///Font
+$font-family: "Hanken Grotesk", sans-serif;
+
+// Border-Radius
+$border-radius-s: 10px;
+$border-radius-m: 15px;
+$border-radius-l: 20px;
