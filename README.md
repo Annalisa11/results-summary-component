@@ -1,4 +1,4 @@
-# Frontend Mentor - Results summary component solution
+# Results summary component solution
 
 This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -15,7 +15,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
-## Overview
+## 📖 Overview
 
 ### The challenge
 
@@ -37,7 +37,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
-## My process
+## ⚒️ My process
 
 ### Built with
 
@@ -71,7 +71,7 @@ As it was my first time using SCSS in a project, I learned about the power of cs
 
 **If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.**
 
-## Author
+## 👩🏽‍💻 Author
 
 Annalisa Comin
 
