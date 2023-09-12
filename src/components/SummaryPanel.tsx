@@ -13,7 +13,7 @@ type Props = {
   points: number;
   totalPoints: number;
   iconPath: string;
-  color: Color;
+  color?: Color;
 };
 
 const SummaryPanel = ({
