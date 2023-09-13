@@ -10,7 +10,7 @@ import ReactionIcon from "./assets/images/icon-reaction.svg";
 import VerbalIcon from "./assets/images/icon-verbal.svg";
 import VisualIcon from "./assets/images/icon-visual.svg";
 //Types and Enums
-import { Color } from "./components/SummaryPanel";
+import { Color } from "./components/SummaryPanel/SummaryPanel";
 import Result from "./components/Result";
 import Summary from "./components/Summary";
 

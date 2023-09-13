@@ -1,4 +1,4 @@
-@import "../General.scss";
+@import "../../General.scss";
 
 .panel {
   border-radius: $border-radius-s;
@@ -6,8 +6,6 @@
   padding: 15px;
   display: flex;
 
-  .title {
-  }
   .points {
     strong {
       color: $neutral-dark;

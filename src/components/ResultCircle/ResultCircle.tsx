@@ -1,4 +1,3 @@
-import React from "react";
 import "./ResultCircle.scss";
 
 type Props = {

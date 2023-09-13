@@ -1,9 +1,4 @@
-%display-flex-centered {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
+// Mixins
 @mixin panel-color($color) {
   background-color: rgba($color, 0.06);
   color: $color;

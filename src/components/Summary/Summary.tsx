@@ -1,8 +1,7 @@
-import React from "react";
 import "./Summary.scss";
-import SummaryPanel, { Color } from "./SummaryPanel";
-import { DataItem } from "../App";
-import Button from "./button";
+import SummaryPanel from "../SummaryPanel";
+import { DataItem } from "../../App";
+import Button from "../button";
 
 type Props = {
   data: DataItem[];

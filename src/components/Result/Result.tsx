@@ -1,6 +1,5 @@
-import React from "react";
 import "./Result.scss";
-import ResultCircle from "./ResultCircle";
+import ResultCircle from "../ResultCircle";
 
 type Props = {
   points: number;
