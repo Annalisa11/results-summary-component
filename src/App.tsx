@@ -22,7 +22,7 @@ function App() {
   const [data, setData] = useState<DataItem[]>(JSONdata);
 
   useEffect(() => {
-    setData(addColorProperty(data));
+    setData((data) => addColorProperty(data));
   }, []);
 
   const addColorProperty = (data: DataItem[]): DataItem[] => {
